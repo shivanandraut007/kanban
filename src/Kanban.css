@@ -1,0 +1,74 @@
+/* src/Kanban.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+  }
+  
+  .App {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .kanban-board {
+    margin: 20px;
+  }
+  
+  .add-task-form {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+  .add-task-form input,
+  .add-task-form select {
+    margin: 0 10px;
+    padding: 5px;
+    background-color: aqua;
+
+  }
+  
+  .board {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 10px;
+  }
+  
+  .column {
+    background: #9e7bda;
+    border-radius: 5px;
+    padding: 10px;
+    flex: 1;
+    min-height: 300px;
+    color: rgb(115, 30, 207);
+  }
+  
+  .column h2 {
+    text-align: center;
+    color: white;
+  }
+  
+  .task {  /*task.js*/
+    background:black;
+    border: 1px solid #c74b8f;
+    margin: 10px 0;
+    padding: 10px;
+    cursor: grab;
+  }
+  
+  .status-count {
+    background: #ddd;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: rgb(200, 51, 152);
+  }
+  #heading{
+    color: rgb(232, 123, 45);
+  }
